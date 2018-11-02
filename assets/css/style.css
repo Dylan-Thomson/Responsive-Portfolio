@@ -123,6 +123,7 @@ footer a:hover {
 
 .lead {
     font-weight: bold;
+    text-align: center;
 }
 
 .line-through {
@@ -282,7 +283,22 @@ input[type="submit"]:hover {
  }
 
  @media screen and (max-width: 768px) {
+    h2 {
+        margin : 0.5em auto;
+    }
 
+    nav ul {
+        font-size: .75em;
+    }
+
+    footer {
+        padding: 0.5em;
+        border-width: 4px;
+     }
+
+     footer p{
+        margin: 0.5em;
+     }
 
  }
 
@@ -298,30 +314,13 @@ input[type="submit"]:hover {
          justify-content: center;
      }
 
-     h2 {
-         margin : 0.5em auto;
-     }
-
      nav ul {
          text-align: center;
          margin: 1em;
      }
 
-     footer {
-        padding: 0.5em;
-        border-width: 4px;
-     }
-
-     footer p{
-        margin: 0.5em;
-     }
-
      .about-me-container {
          text-align: left;
-     }
-
-     .lead {
-         text-align: center;
      }
 
      #profile-img {
