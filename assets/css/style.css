@@ -114,7 +114,7 @@ footer a:hover {
     color: #5c918e;
 }
 
-strong {
+.lead {
     font-weight: bold;
 }
 
@@ -140,6 +140,7 @@ strong {
     width: 25%;
     float: left;
     margin: auto 1em 1em auto;
+    border: 1px solid #cccccc;
 }
 
 /********************************************** 
@@ -287,6 +288,10 @@ input[type="submit"]:hover {
          justify-content: center;
      }
 
+     h2 {
+         margin : 0.5em auto;
+     }
+
      nav ul {
          text-align: center;
          margin: 1em;
@@ -299,11 +304,14 @@ input[type="submit"]:hover {
 
      footer p{
         margin: 0.5em;
-       
      }
 
      .about-me-container {
          text-align: left;
+     }
+
+     .lead {
+         text-align: center;
      }
 
      #profile-img {
