@@ -153,7 +153,7 @@ input {
     display: block;
 }
 
-input[type=text] {
+input[type=text], input[type=email] {
     margin-bottom: 2em;
     width: 100%;
     box-sizing: border-box;
