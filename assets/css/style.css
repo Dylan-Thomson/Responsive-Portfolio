@@ -62,6 +62,11 @@ nav ul {
     margin: auto 1em;
     text-decoration: none;
     color: #666666;
+    /* transition: color 250ms ease; */
+}
+
+.nav-btn a:hover {
+    /* color: #111111; */
 }
 
 h2 {
@@ -104,6 +109,8 @@ footer a {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-weight: bold;
     text-decoration: none;
+    transition: color 250ms ease;
+    
 }
 
 footer a, footer a:visited {
@@ -111,7 +118,7 @@ footer a, footer a:visited {
 }
 
 footer a:hover {
-    color: #5c918e;
+    color: #40928e;
 }
 
 .lead {
@@ -176,11 +183,13 @@ input[type="submit"] {
     background: #4aaaa5;
     color: #ffffff;
     border: none;
+    transition: background-color 250ms ease;
+
 }
 
 input[type="submit"]:hover {
-    background: #5c918e;
-    color: #cccccc;
+    background: #40928e;
+    /* color: #cccccc; */
     cursor: pointer;
 }
 
@@ -214,11 +223,12 @@ input[type="submit"]:hover {
     background: #4aaaa5;
     color: #ffffff;
     text-decoration: none;
+    transition: background-color 250ms ease;
 }
 
 .portfolio-link:hover {
-    background: #5c918e;
-    color: #cccccc;
+    background: #40928e;
+    /* color: #cccccc; */
 }
 
 #quote-machine {
